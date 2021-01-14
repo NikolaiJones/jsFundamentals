@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="header">
+        <main class="title">
+            <div class="title-txt">COVID-19 INFORMATION</div>
+        </main>
+    </section>
+    <section class="subtext">
+        <main class="info">
+            <div class="info-txt">
+                This web page is designed to inform on current and historic COVID-19 related information.
+            </div>
+        </main>
+    </section>
+    <seciton class="drop-menu">
+        <button onclick="dropDownMenu()" class="dropbtn"><div class="current-txt">Current Data</div></button>
+        <div id="currentInfo" class="hidden">
+            <div class="current-info-header">
+                <a class="current-info-txt">States: </a>
+                <a class="current-info-txt">Positive: </a>
+                <a class="current-info-txt">Negative: </a>
+                <a class="current-info-txt">Currently Hosipitalized: </a>
+                <a class="current-info-txt">In Critical Care: </a>
+                <a class="current-info-txt">On a Ventilator: </a>
+                <a class="current-info-txt">Recovered: </a>
+                <a class="current-info-txt">Date: </a>
+                <a class="current-info-txt">Death Inc: </a>
+                <a class="current-info-txt">Hospitalized Increase: </a>
+                <a class="current-info-txt">Negative Increase: </a>
+                <a class="current-info-txt">Positive Increase: </a>
+            </div>
+            <a class="current-info-value">
+                <div id="states"></div>
+                <div id="positive"></div>
+                <div id="negative"></div>
+                <div id="currently-hos"></div>
+                <div id="critical-care"></div>
+                <div id="ventilator"></div>
+                <div id="recovered"></div>
+                <div id="date"></div>
+                <div id="death"></div>
+                <div id="hosipit"></div>
+                <div id="negativeInc"></div>
+                <div id="ositiveInc"></div>
+            </a>
+        </div>
+    </seciton>
+    <script src="script.js"></script>
+</body>
+</html>
